@@ -1,0 +1,1 @@
+docker-novnc: https://github.com/theasp/docker-novnc/blob/master/LICENSE
