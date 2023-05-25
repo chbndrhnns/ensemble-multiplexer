@@ -1,0 +1,53 @@
+# flyctl launch added from upstream/distributed-ensemble/.gitignore
+upstream/distributed-ensemble/**/desktop-base/set-password.sh
+upstream/distributed-ensemble/environments/demo/exercises
+
+# flyctl launch added from upstream/distributed-ensemble/exercises/java/FirstTest/.gitignore
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.gradle
+upstream/distributed-ensemble/exercises/java/FirstTest/**/build
+!upstream/distributed-ensemble/exercises/java/FirstTest/**/gradle/wrapper/gradle-wrapper.jar
+!upstream/distributed-ensemble/exercises/java/FirstTest/**/**/src/main/**/build
+!upstream/distributed-ensemble/exercises/java/FirstTest/**/**/src/test/**/build
+
+### IntelliJ IDEA ###
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.idea/modules.xml
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.idea/jarRepositories.xml
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.idea/compiler.xml
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.idea/libraries
+upstream/distributed-ensemble/exercises/java/FirstTest/**/*.iws
+upstream/distributed-ensemble/exercises/java/FirstTest/**/*.iml
+upstream/distributed-ensemble/exercises/java/FirstTest/**/*.ipr
+upstream/distributed-ensemble/exercises/java/FirstTest/**/out
+!upstream/distributed-ensemble/exercises/java/FirstTest/**/**/src/main/**/out
+!upstream/distributed-ensemble/exercises/java/FirstTest/**/**/src/test/**/out
+
+### Eclipse ###
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.apt_generated
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.classpath
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.factorypath
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.project
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.settings
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.springBeans
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.sts4-cache
+upstream/distributed-ensemble/exercises/java/FirstTest/**/bin
+!upstream/distributed-ensemble/exercises/java/FirstTest/**/**/src/main/**/bin
+!upstream/distributed-ensemble/exercises/java/FirstTest/**/**/src/test/**/bin
+
+### NetBeans ###
+upstream/distributed-ensemble/exercises/java/FirstTest/nbproject/private
+upstream/distributed-ensemble/exercises/java/FirstTest/nbbuild
+upstream/distributed-ensemble/exercises/java/FirstTest/dist
+upstream/distributed-ensemble/exercises/java/FirstTest/nbdist
+upstream/distributed-ensemble/exercises/java/FirstTest/.nb-gradle
+
+### VS Code ###
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.vscode
+
+### Mac OS ###
+upstream/distributed-ensemble/exercises/java/FirstTest/**/.DS_Store
+
+# flyctl launch added from upstream/distributed-ensemble/exercises/java/FirstTest/.idea/.gitignore
+# Default ignored files
+upstream/distributed-ensemble/exercises/java/FirstTest/.idea/shelf
+upstream/distributed-ensemble/exercises/java/FirstTest/.idea/workspace.xml
+fly.toml
