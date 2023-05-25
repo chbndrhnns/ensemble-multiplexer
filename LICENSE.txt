@@ -1,1 +1,2 @@
 docker-novnc: https://github.com/theasp/docker-novnc/blob/master/LICENSE
+distributed-example: https://github.com/qwaneu/distributed-ensemble/blob/main/LICENSE
